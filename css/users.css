@@ -1,0 +1,45 @@
+.userRow{
+	margin: 1em;
+	background-color: #f9f9f9;
+}
+
+.userRow:hover{
+	background-color: #f5f5f5;
+}
+
+.userRow.settingsRow,
+.userRow.settingsRow:hover{
+	background-color: transparent;
+}
+
+.userRow > div{
+	padding: 0.5em;
+	word-break: break-word;
+}
+
+.userRow .button-group{
+	top: -0.5em;
+	padding: 0;
+}
+
+.field-header{
+	font-weight: bold;
+}
+
+.listOfUserAttachmentsHeader{
+	font-weight: bold;
+	padding: 0.25em 0.25em 0.5em 0.25em;
+}
+
+.listOfUserAttachments li{
+	padding: 0.25em;
+}
+
+.listOfUserAttachments li:nth-child(2n+1){
+	background-color: #f9f9f9;
+}
+
+.listOfUserAttachments .glyphicon{
+	margin-left: 1em;
+	cursor: pointer;
+}
