@@ -1,0 +1,170 @@
+/* Global styles */
+
+body{
+	font-size: 13px;
+	font-family: Arial, Verdana, Tahoma, sans-serif;
+	color: #333;
+	padding: 0;
+	margin: 0;
+}
+
+main{
+	padding: 0 1em 1em;
+	float: left;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+a{
+	color: #47729d;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+h1, h2, h3, h4{
+	margin: 0 0 .6em 0;
+}
+
+table{
+	font-size: 12px;
+	border-collapse: collapse;
+}
+
+
+/* ------- button Class -------- */
+
+.btn-primary{
+	-webkit-appearance: none;
+	background-color: #4c2401;
+	background: linear-gradient(to bottom, #4c2401 50%, #662f00 50% );
+	background-size: 100% 200%;
+	color: #FFFFFF;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: background-position .2s .1s;
+	   -moz-transition: background-position .2s .1s;
+			transition: background-position .2s .1s;
+}
+
+.btn-primary:hover{
+	color: #EEEEEE;
+	background-position: 0 -100%;
+	-webkit-transition: background-position .2s;
+	   -moz-transition: background-position .2s;
+			transition: background-position .2s;
+}
+
+.btn-primary:active{
+	background-color: #662f00;
+	color: #AAAAAA;
+}
+
+
+/* ------------- Header ------------- */
+
+.projectHeader{
+	float: left;
+	display: block;
+	background-color: #472200;
+	width: 100%;
+	border-bottom: 1px solid #110600;
+	margin-bottom: 2em;
+}
+
+.projectHeader a{
+	color: inherit;
+}
+
+.projectHeader a.projectTitle{
+	display: block;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2.5em;
+	padding: .1em .4em .1em .3em;
+	line-height: 1.2em;
+	letter-spacing: -1px;
+	float: left;
+	height: 1.15em;
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.projectHeader a.projectTitle:hover{
+	text-decoration: inherit;
+}
+
+.projectHeader .projectStrap{
+	line-height: 4.8em;
+	height: 3em;
+	display: block;
+	float: left;
+}
+
+.projectHeader .logoutLink{
+	margin-left: 1em;
+}
+
+.projectHeader .row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.projectHeader .row.headerTopRow{
+	color: white;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.projectHeader .row.topNav{
+	background-color: #fffbf8;
+}
+
+.loginInfo{
+	margin: 0 1em;
+	line-height: 4.4em;
+	height: 2.6em;
+	text-align: right;
+}
+
+.loginInfo .username{
+	font-weight: bold;
+}
+
+/* ------------- FAQs sections ------------- */
+
+.faqWrap{
+	max-width: 1536px;
+	margin: 2em auto 0;
+}
+
+.faqWrap ul{
+	list-style: none;
+}
+
+.faqWrap > ul{
+	padding: 0;
+	margin: 1em 0 0 0;
+}
+
+.faqWrap li{
+	margin: 2em 0;
+}
+
+.faqWrap h2{
+	border-bottom: 1px dashed #888;
+	margin: 0;
+	color: #555;
+}
+
+.faqWrap .question .faqanswer{
+	color: #666;
+}
+
+.faqWrap h2 {
+    font-size: 20px;
+}

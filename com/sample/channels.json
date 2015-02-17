@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "msg": "Successfully retrieved list of users",
+  "data":
+    {
+      "1":
+          {
+            "id": 1,
+            "name": "BBC One",
+            "url": ["www.bbc.co.uk/bbcone"]
+          },
+      "2":
+          {
+            "id": 2,
+            "name": "BBC Two",
+            "url": ["www.bbc.co.uk/bbctwo"]
+          },
+      "3":
+          {
+            "id": 3,
+            "name": "ITV",
+            "url": ["www.itv.com"]
+          },
+      "4":
+          {
+            "id": 4,
+            "name": "Channel 4",
+            "url": ["www.channel4.com"]
+          },
+      "5":
+          {
+            "id": 5,
+            "name": "Sky News",
+            "url": ["news.sky.com","sky.com/news"]
+          }
+    }
+}

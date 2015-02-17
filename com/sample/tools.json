@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "msg": "Successfully retrieved list of users",
+  "data":
+    {
+      "1":
+          {
+            "id": 1,
+            "name": "AutoPanel Users Admin",
+            "href": "#",
+            "description": "Handles the users"
+          },
+      "2":
+          {
+            "id": 2,
+            "name": "Another tool",
+            "href": "#",
+            "description": "This tool does something very useful"
+          },
+      "3":
+          {
+            "id": 3,
+            "name": "Yet another one",
+            "href": "#",
+            "description": "This tool does something else"
+          },
+      "4":
+          {
+            "id": 4,
+            "name": "And the last tool",
+            "href": "#",
+            "description": "This tool is not very handy yet"
+          }
+    }
+}

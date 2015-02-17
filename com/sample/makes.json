@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "msg": "Successfully retrieved list of users",
+  "data":
+    {
+      "1":
+          {
+            "id": 1,
+            "name": "Audi"
+          },
+      "2":
+          {
+            "id": 2,
+            "name": "BMW"
+          },
+      "3":
+          {
+            "id": 3,
+            "name": "Citroen"
+          },
+      "4":
+          {
+            "id": 4,
+            "name": "Ferrari"
+          },
+      "5":
+          {
+            "id": 5,
+            "name": "Mercedes-Benz"
+          },
+      "6":
+          {
+            "id": 6,
+            "name": "Renault"
+          },
+      "7":
+          {
+            "id": 7,
+            "name": "SEAT"
+          },
+      "8":
+          {
+            "id": 8,
+            "name": "Volkswagen"
+          },
+      "9":
+          {
+            "id": 9,
+            "name": "Volvo"
+          }
+    }
+}

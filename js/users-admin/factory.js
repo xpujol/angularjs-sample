@@ -2,12 +2,13 @@ AutoPanelUsersAdminApp
 
 	.factory('UserFactory', function ($resource) {
 		return $resource(
-			'/com/users.cfc',
+			'com/users.cfc.disabled',
 			{
 				returnFormat: 'json'
 			},
 			{
 				retrieve: {
+					url: 'com/sample/users.json', // Overwrite with sample data
 					method: 'GET',
 					params: {
 						method: 'retrieve'
@@ -38,12 +39,13 @@ AutoPanelUsersAdminApp
 
 	.factory('ToolFactory', function ($resource) {
 		return $resource(
-			'/com/tools.cfc', 
+			'com/tools.cfc.disabled', 
 			{
 				returnFormat: 'json'
 			},
 			{
 				retrieve: {
+					url: 'com/sample/tools.json', // Overwrite with sample data
 					method: 'GET',
 					params: {
 						method: 'retrieve'
@@ -55,12 +57,13 @@ AutoPanelUsersAdminApp
 
 	.factory('MakeFactory', function ($resource) {
 		return $resource(
-			'/com/makes.cfc', 
+			'com/makes.cfc.disabled', 
 			{
 				returnFormat: 'json'
 			},
 			{
 				retrieve: {
+					url: 'com/sample/makes.json', // Overwrite with sample data
 					method: 'GET',
 					params: {
 						method: 'retrieve'
@@ -72,12 +75,13 @@ AutoPanelUsersAdminApp
 
 	.factory('ChannelFactory', function ($resource) {
 		return $resource(
-			'/com/channels.cfc', 
+			'com/channels.cfc.disabled', 
 			{
 				returnFormat: 'json'
 			},
 			{
 				retrieve: {
+					url: 'com/sample/channels.json', // Overwrite with sample data
 					method: 'GET',
 					params: {
 						method: 'retrieve'
